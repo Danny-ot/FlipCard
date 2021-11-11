@@ -18,4 +18,13 @@ $(document).ready(function(){
         $("#function-def").hide();
         $("#function").show();
     })
+    //Variables
+    $("#var-show").click(function(){
+        $("#variable").hide();
+        $("#var-sec").show();
+    })
+    $("#var-hide").click(function(){
+        $("#var-sec").hide();
+        $("#variable").show();
+    })
 })
