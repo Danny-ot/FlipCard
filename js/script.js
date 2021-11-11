@@ -8,5 +8,14 @@ $(document).ready(function(){
     $("#intro-hide").click(function(){
         $("#js-intro").hide();
         $("#js-click").show();
+    });
+    //Functions
+    $("#func-show").click(function(){
+        $("#function").hide();
+        $("#function-def").show();
+    })
+    $("#func-hide").click(function(){
+        $("#function-def").hide();
+        $("#function").show();
     })
 })
