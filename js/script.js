@@ -27,4 +27,13 @@ $(document).ready(function(){
         $("#var-sec").hide();
         $("#variable").show();
     })
+    //Methods
+    $("#meth-show").click(function(){
+        $("#method").hide();
+        $("#meth-sec").show();
+    })
+    $("#meth-hide").click(function(){
+        $("#meth-sec").hide();
+        $("#method").show();
+    })
 })
